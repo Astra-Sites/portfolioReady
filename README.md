@@ -1,4 +1,4 @@
-# Edenbridge
+# Portfolio Ready
 Dentalist is a fully responsive dental website, Responsive for all devices, build using HTML, CSS, Tailwindcss and JavaScript.
 
 ## Features
