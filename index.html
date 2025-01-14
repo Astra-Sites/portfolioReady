@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <title>Dentalist | EdenBridge dental clinic services</title>
+    <title>Portfolio Ready Online Course</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./styles/main.css" type="text/css">
-    <link rel="icon" href="./assets/images/favicon.png" type="images/png">
+    <link rel="icon" href="./assets/images/logo.png" type="images/png">
     <style>
         .swiper-pagination-bullet-active {
         background-color: #583FBC !important;
@@ -20,6 +20,11 @@
     <!-- Scripts -->
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script defer src="./scripts/main.js"></script>
+
+      <!-- BOOSTRAP ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Flowbite -->
+   
 </head>
 <body>
     <!-- SVG Importing -->
@@ -77,8 +82,8 @@
             <div class="flex justify-between items-center h-12 w-full">
                 <!-- Header Logo -->
                 <a href="#" class="logo flex items-center gap-4">
-                    <img src="./assets/images/logo.svg" alt="Site-Logo">
-                    <span style="font-size: 1.5rem; font-weight: 800;">EdenBridge Clinic</span>
+                    <img src="./assets/images/logo.png" alt="Site-Logo" style="width: auto; height: 36px;">
+                    <span style="font-size: 1.5rem; font-weight: 800;">PortfolioReady</span>
                 </a>
                 <!-- Header Menu -->
                 <nav class="hidden lg:block">
@@ -87,16 +92,22 @@
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#service">Services</a>
+                            <a href="#service">About</a>
                         </li>
-        
+                        <li>
+                            <a href="#service">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#service">Docs</a>
+                        </li>
                         <li>
                             <a href="#contact">Contact Us</a>
                         </li>
                     </ul>
                 </nav>
                 <!-- Header Button -->
-                <a class="hidden lg:block h-full w-44 bg-primary text-white text-sm font-bold text-center leading-[3rem] rounded-xl transition-colors hover:bg-indigo-800" href="#contact">Book appointment</a>
+                <a class="hidden lg:block h-full w-44 border border-gray-200 text-indigo-800  text-sm font-bold text-center leading-[3rem] rounded-xl transition-colors" href="#contact" ><i class="bi bi-stars" style="margin-right: .7rem;"></i>Ask Astra</a>
+                <a class="hidden lg:block h-full w-44 bg-primary text-white text-sm font-bold text-center leading-[3rem] rounded-xl transition-colors hover:bg-indigo-800" href="#contact">Get Started Today</a>
                 <!-- Mobile Menu -->
                 <div class="lg:hidden relative">
                     <!-- Mobile Menu Toggle Icon -->
@@ -112,7 +123,7 @@
                     <div id="mobile-menu-container" class="w-80 bg-white fixed top-0 -left-80 bottom-0 transition-all flex flex-col z-[999]">
                         <!-- Logo & Close Button -->
                         <div class="flex items-center justify-between p-4 border-b border-b-gray-100/50">
-                            <img src="./assets/images/logo.svg" alt="">
+                            <img src="./assets/images/logo.png"  style="width: auto; height: 36px;" alt="">
                             <button type="button" id="close-button">
                                 <svg class="w-5 h-5">
                                     <use href="#close-mark"></use>
@@ -138,7 +149,7 @@
                                         <svg class="w-5 h-5">
                                             <use href="#gear"></use>
                                         </svg>
-                                        Services
+                                        Courses
                                     </a>
                                 </li>
                                 <!-- menu item -->
@@ -196,10 +207,10 @@
                 <div class="bg-top-main pt-8 px-8 lg:pt-0 rounded-3xl lg:min-h-[500px] xl:min-h-[620px] 2xl:min-h-[760px] gap-y-14 flex flex-col lg:flex-row justify-between items-center bg-[#DBEFFA]">
                     <div class="lg:w-1/2 text-center items-center lg:items-start lg:text-start flex flex-col gap-y-6 lg:gap-y-8">
                         <h1 class="text-4xl leading-snug lg:text-5xl lg:leading-snug font-bold text-slate-800">
-                            Entrust your smile to professionals
+                            Learn to design, websites from scratch
                         </h1>
-                        <p class="text-slate-800/70 font-medium text-base lg:text-lg w-[90%]">Welcome to Edenbridge Dental Clinic, where your smile is our top priority. Our experienced team offers high-quality, personalized dental care to help you achieve and maintain a healthy, beautiful smile.</p>
-                        <a class="h-12 w-44 bg-primary text-white text-sm font-bold text-center leading-[3rem] rounded-xl transition-colors hover:bg-indigo-800" href="#contact">Book appointment</a>
+                        <p class="text-slate-800/70 font-medium text-base lg:text-lg w-[90%]">Kickstart your web development journey with our top-rated courses, designed to equip you with practical skills and hands-on experience.</p>
+                        <a class="h-12 w-44 bg-primary text-white text-sm font-bold text-center leading-[3rem] rounded-xl transition-colors hover:bg-indigo-800" href="#contact">Learn More</a>
                     </div>
                     <div class="lg:w-1/2 mt-auto">
                         <img class="" src="./assets/images/Hero-img.png" alt="">
@@ -217,12 +228,12 @@
                         <!-- Left Side-->
                         <div class="text-center lg:text-start">
                             <!-- Title -->
-                            <h3 class="text-sm text-primary font-bold mb-3" id="Service">SERVICES</h3>
+                            <h3 class="text-sm text-primary font-bold mb-3" id="Service">ABOUT US</h3>
                             <!-- Subtitle -->
-                            <p class="text-slate-800 text-3xl xs:text-4xl lg:max-w-[340px] leading-snug xs:leading-snug font-bold">Feel amazing about your oral health</p>
+                            <p class="text-slate-800 text-3xl xs:text-4xl lg:max-w-[340px] leading-snug xs:leading-snug font-bold">Who We Are</p>
                         </div>
                         <!-- Right Side -->
-                        <p class="text-center lg:text-start lg:max-w-screen-xs text-[15px] font-medium text-slate-800/70 -mb-8">Feel amazing about your oral health with our comprehensive care at Edenbridge Dental Clinic. Our dedicated team ensures you achieve and maintain a radiant smile.</p>
+                        <p class="text-center lg:text-start lg:max-w-screen-xs text-[15px] font-medium text-slate-800/70 -mb-8">Portfolio Ready is an online course for all programming levels—beginners, intermediates, and experts. With the AstraAI Tutor, learners solve real-world projects, innovate, and gain practical skills to thrive in the tech industry.</p>
                     </div>
                     <!-- Services -->
                     <div class="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-5 child:transition-all child-hover:shadow-2xl mt-6 lg:mt-0 child-hover:shadow-slate-400/20 child-hover:border-gray-100 child:cursor-pointer">
@@ -230,32 +241,32 @@
                         <div class="services-item rounded-[32px] border p-4 flex flex-col gap-y-4">
                             <img class="w-full rounded-[32px]" src="./assets/images/dentures.webp" alt="">
                             <div class="text-center space-y-2">
-                                <h3 class="text-slate-800 font-bold">Dentures</h3>
-                                <p class="text-[15px] font-medium text-slate-800/50">Custom-crafted to restore function and enhance aesthetic appearance.</p>
+                                <h3 class="text-slate-800 font-bold">Scalable Learning</h3>
+                                <p class="text-[15px] font-medium text-slate-800/50">The AI tutor ensures that each learner, regardless of their location or background, receives the same level of quality education and support. This scalability makes it possible for anyone, anywhere, to access high-quality learning resources and grow their skills.</p>
                             </div>
                         </div>
                         <!-- Service item -->
                         <div class="services-item rounded-[32px] border p-4 flex flex-col gap-y-4">
                             <img class="w-full rounded-[32px]" src="./assets/images/implants.webp" alt="">
                             <div class="text-center space-y-2">
-                                <h3 class="text-slate-800 font-bold">Implants</h3>
-                                <p class="text-[15px] font-medium text-slate-800/50">Durable, natural-looking solutions for replacing missing teeth professionally installed.</p>
+                                <h3 class="text-slate-800 font-bold">Data-Driven Insights</h3>
+                                <p class="text-[15px] font-medium text-slate-800/50">AstraAI Tutor tracks your progress and learning patterns over time, providing valuable insights into your strengths and weaknesses. With this data, it helps you refine your study approach and offers suggestions for more effective learning strategies.</p>
                             </div>
                         </div>
                         <!-- Service item -->
                         <div class="services-item rounded-[32px] border p-4 flex flex-col gap-y-4">
                             <img class="w-full rounded-[32px]" src="./assets/images/whiting.webp" alt="">
                             <div class="text-center space-y-2">
-                                <h3 class="text-slate-800 font-bold">Whitening</h3>
-                                <p class="text-[15px] font-medium text-slate-800/50">Professional treatments to effectively brighten and enhance your smile.</p>
+                                <h3 class="text-slate-800 font-bold">Efficient Learning Path</h3>
+                                <p class="text-[15px] font-medium text-slate-800/50">Through data-driven insights, the AstraAI Tutor identifies areas where you need more focus and adjusts your learning path accordingly. Whether you need to revisit a topic or dive deeper into advanced concepts, it ensures that your curriculum evolves to match your learning needs.</p>
                             </div>
                         </div>
                         <!-- Service item --> 
                         <div class="services-item rounded-[32px] border p-4 flex flex-col gap-y-4">
                             <img class="w-full rounded-[32px]" src="./assets/images/rootcanal.webp" alt="">
                             <div class="text-center space-y-2">
-                                <h3 class="text-slate-800 font-bold">Root Canal</h3>
-                                <p class="text-[15px] font-medium text-slate-800/50">Advanced therapy to preserve teeth, alleviate pain, restore oral health.</p>
+                                <h3 class="text-slate-800 font-bold">Personalized Learning</h3>
+                                <p class="text-[15px] font-medium text-slate-800/50">The AstraAI Tutor customizes your learning experience based on your individual pace, strengths, and areas for improvement. It tailors lessons, assignments, and explanations to ensure that you understand key concepts before moving forward, optimizing your learning process.</p>
                             </div>
                         </div>
                     </div>
@@ -286,6 +297,14 @@
                 </div>
             </div>
         </section>
+
+
+
+        <!-- Mockup start -->
+
+        
+
+
 
         <!-- Features Section -->
         <section class="section py-16">
@@ -629,7 +648,13 @@
                 </div>
             </div>
         </section>
+        
     </main>
+
+
+
+
+    
     <!-- Footer -->
     <footer class="bg-[#041434] mt-10">
         <div class="container">  
